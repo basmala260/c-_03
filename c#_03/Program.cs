@@ -30,11 +30,30 @@
             //    Console.WriteLine("invalid number");
             //}
             //#endregion
-            #region ass2_question5
-            int pages = 464;
-            string string_pages = pages.ToString();
-            Console.WriteLine("type:"+string_pages.GetType());
+
+            //#region ass2_question5
+            //int pages = 464;
+            //string string_pages = pages.ToString();
+            //Console.WriteLine("type:" + string_pages.GetType());
+            //#endregion
+
+            //#region ass2_question5
+            //int copies = 100;
+            //object obj_copies = copies;
+            //Console.WriteLine("boxing:" + obj_copies);
+            //int int_copies = (int)obj_copies;
+            //Console.WriteLine("unboxing" + int_copies);
+            //#endregion
+
+            #region ass2_question7
+            int?year=null;
+            Console.WriteLine(year.HasValue);
+            year = 2023;
+            Console.WriteLine(year);
             #endregion
+
+
+
         }
     }
 }
