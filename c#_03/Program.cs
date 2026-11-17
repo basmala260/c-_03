@@ -1,4 +1,6 @@
-﻿namespace c__03
+﻿using static System.Runtime.CompilerServices.RuntimeHelpers;
+
+namespace c__03
 {
     internal class Program
     {
@@ -87,14 +89,34 @@
             //    Console.WriteLine("short book");
             //}
             //#endregion
-            #region ass3_question2
-            int pages = 464;
-            bool isAvailable = true;
-            if (pages > 300 && isAvailable)
+
+            //#region ass3_question2
+            //int pages = 464;
+            //bool isAvailable = true;
+            //if (pages > 300 && isAvailable)
+            //{
+            //    Console.WriteLine("you can borrow the book");
+            //}
+            //#endregion
+
+            #region ass3_question3
+            string title = "Refactoring";
+            switch (title)
             {
-                Console.WriteLine("you can borrow the book");
+                case "CleanCode":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                Console.WriteLine("Never heard of it");
+                    break;
             }
             #endregion
+
+
+
 
 
 
