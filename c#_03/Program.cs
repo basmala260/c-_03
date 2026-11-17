@@ -148,15 +148,30 @@ namespace c__03
             //} while (i < 4);
             //#endregion
 
-            #region ass3_question8
+            //#region ass3_question8
+            // string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+
+            //foreach(string name in books)
+            //{
+            //    Console.WriteLine(name);
+            //}
+            //#endregion
+
+            #region ass3_question9
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            foreach(string name in books)
+            for(int i = 0; i < books.Length; i++)
             {
-                Console.WriteLine(name);
+                if (books[i] == "Refactoring")
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(books[i]);
+                }
             }
             #endregion
-
 
 
 
