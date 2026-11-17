@@ -119,11 +119,21 @@ namespace c__03
             //int pages = 464;
             //string statement = (pages > 300) ? "long book" : "short book";
             //#endregion
+            //#region ass3_question5
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //   for(int i = 0; i < books.Length; i++)
+            //{
+            //    Console.WriteLine($"{i + 1}:{books[i]}");
+            //}
+            //#endregion
+
             #region ass3_question5
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-               for(int i = 0; i < books.Length; i++)
+            int number = 0;
+            while (number < books.Length)
             {
-                Console.WriteLine($"{i + 1}:{books[i]}");
+                Console.WriteLine("============================");
+                Console.WriteLine(books[number]);
             }
             #endregion
 
