@@ -157,14 +157,29 @@ namespace c__03
             //}
             //#endregion
 
-            #region ass3_question9
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //#region ass3_question9
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for(int i = 0; i < books.Length; i++)
+            //for(int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "Refactoring")
+            //    {
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //}
+            //#endregion
+
+            #region ass3_question10
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            for (int i = 0; i < books.Length; i++)
             {
-                if (books[i] == "Refactoring")
+                if (books[i] == "The Pragmatic Programmer")
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
@@ -172,6 +187,7 @@ namespace c__03
                 }
             }
             #endregion
+
 
 
 
