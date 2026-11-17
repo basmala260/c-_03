@@ -127,14 +127,23 @@ namespace c__03
             //}
             //#endregion
 
-            #region ass3_question5
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            int number = 0;
-            while (number < books.Length)
+            //#region ass3_question5
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int number = 0;
+            //while (number < books.Length)
+            //{
+            //    Console.WriteLine("============================");
+            //    Console.WriteLine(books[number]);
+            //}
+            //#endregion
+
+            #region ass3_question7
+            int i = 1;
+            do
             {
-                Console.WriteLine("============================");
-                Console.WriteLine(books[number]);
-            }
+                Console.WriteLine("Checking book");
+                i++;
+            } while (i < 4);
             #endregion
 
 
