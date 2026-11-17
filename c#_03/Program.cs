@@ -60,11 +60,16 @@
             //        }
             //#endregion
 
-            #region ass2_question9
-            Book? book = null;
-            Console.WriteLine(book.title);
-            #endregion
+            //#region ass2_question9
+            //Book? book = null;
+            //Console.WriteLine(book.title);
+            //#endregion
 
+            #region ass2_question10
+            Book? book = null;
+            Console.WriteLine(book?.title ?? "Untitled");
+            book.title ??= "Untitled";
+            #endregion
 
 
 
