@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region ass2_question1
+            int pages = 300;
+            double updated_pages = pages;
+            #endregion
         }
     }
 }
