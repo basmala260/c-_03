@@ -76,15 +76,23 @@
             //string confirmedName = name!;
             //#endregion
 
-            #region ass3_question1
+            //#region ass3_question1
+            //int pages = 464;
+            //if (pages > 300)
+            //{
+            //    Console.WriteLine("long book");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("short book");
+            //}
+            //#endregion
+            #region ass3_question2
             int pages = 464;
-            if (pages > 300)
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable)
             {
-                Console.WriteLine("long book");
-            }
-            else
-            {
-                Console.WriteLine("short book");
+                Console.WriteLine("you can borrow the book");
             }
             #endregion
 
