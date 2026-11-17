@@ -99,20 +99,25 @@ namespace c__03
             //}
             //#endregion
 
-            #region ass3_question3
-            string title = "Refactoring";
-            switch (title)
-            {
-                case "CleanCode":
-                    Console.WriteLine("Great choice!");
-                    break;
-                case "Refactoring":
-                    Console.WriteLine("Nice pick!");
-                    break;
-                default:
-                Console.WriteLine("Never heard of it");
-                    break;
-            }
+            //#region ass3_question3
+            //string title = "Refactoring";
+            //switch (title)
+            //{
+            //    case "CleanCode":
+            //        Console.WriteLine("Great choice!");
+            //        break;
+            //    case "Refactoring":
+            //        Console.WriteLine("Nice pick!");
+            //        break;
+            //    default:
+            //    Console.WriteLine("Never heard of it");
+            //        break;
+            //}
+            //#endregion
+
+            #region ass3_question4
+            int pages = 464;
+            string statement = (pages > 300) ? "long book" : "short book";
             #endregion
 
 
