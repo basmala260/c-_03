@@ -65,12 +65,16 @@
             //Console.WriteLine(book.title);
             //#endregion
 
-            #region ass2_question10
-            Book? book = null;
-            Console.WriteLine(book?.title ?? "Untitled");
-            book.title ??= "Untitled";
-            #endregion
+            //#region ass2_question10
+            //Book? book = null;
+            //Console.WriteLine(book?.title ?? "Untitled");
+            //book.title ??= "Untitled";
+            //#endregion
 
+            #region ass2_question11
+            string? name = "Ahmed";
+            string confirmedName = name!;
+            #endregion
 
 
         }
