@@ -52,13 +52,19 @@
             //Console.WriteLine(year);
             //#endregion
 
-            #region ass2_question8
-            string? reviewer = null;
-            bool hasnot_value = reviewer==null;
-            if (hasnot_value) {
-                Console.WriteLine("null");
-                    }
+            //#region ass2_question8
+            //string? reviewer = null;
+            //bool hasnot_value = reviewer==null;
+            //if (hasnot_value) {
+            //    Console.WriteLine("null");
+            //        }
+            //#endregion
+
+            #region ass2_question9
+            Book? book = null;
+            Console.WriteLine(book.title);
             #endregion
+
 
 
 
