@@ -71,10 +71,23 @@
             //book.title ??= "Untitled";
             //#endregion
 
-            #region ass2_question11
-            string? name = "Ahmed";
-            string confirmedName = name!;
+            //#region ass2_question11
+            //string? name = "Ahmed";
+            //string confirmedName = name!;
+            //#endregion
+
+            #region ass3_question1
+            int pages = 464;
+            if (pages > 300)
+            {
+                Console.WriteLine("long book");
+            }
+            else
+            {
+                Console.WriteLine("short book");
+            }
             #endregion
+
 
 
         }
