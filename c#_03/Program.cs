@@ -115,9 +115,16 @@ namespace c__03
             //}
             //#endregion
 
-            #region ass3_question4
-            int pages = 464;
-            string statement = (pages > 300) ? "long book" : "short book";
+            //#region ass3_question4
+            //int pages = 464;
+            //string statement = (pages > 300) ? "long book" : "short book";
+            //#endregion
+            #region ass3_question5
+            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+               for(int i = 0; i < books.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}:{books[i]}");
+            }
             #endregion
 
 
