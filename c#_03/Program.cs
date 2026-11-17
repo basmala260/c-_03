@@ -1,4 +1,6 @@
-﻿using static System.Runtime.CompilerServices.RuntimeHelpers;
+﻿using System.Reflection.Metadata.Ecma335;
+using System.Security.Cryptography.X509Certificates;
+using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 namespace c__03
 {
@@ -173,24 +175,36 @@ namespace c__03
             //}
             //#endregion
 
-            #region ass3_question10
-            string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            for (int i = 0; i < books.Length; i++)
-            {
-                if (books[i] == "The Pragmatic Programmer")
-                {
-                    continue;
-                }
-                else
-                {
-                    Console.WriteLine(books[i]);
-                }
-            }
-            #endregion
-
-
-
+            //#region ass3_question10
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //for (int i = 0; i < books.Length; i++)
+            //{
+            //    if (books[i] == "The Pragmatic Programmer")
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(books[i]);
+            //    }
+            //}
+            //#endregion
 
         }
+
+        #region ass3_question11
+        public void PrintFirstBook()
+        {
+          string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            if (books.Length == 0)
+            {
+                return;
+            }
+            else
+            {
+                Console.WriteLine(books[0]);
+            }
+        }
+        #endregion
     }
 }
