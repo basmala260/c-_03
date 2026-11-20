@@ -80,12 +80,20 @@ namespace c__03
             //string confirmedName = name!;
             //#endregion
             //*******************************************************************
-            #region ass3_question1
-              string title = "clean code";
-              string upperTitle=title.ToUpper();
-            Console.WriteLine($"before upper:{title}");
-            Console.WriteLine($"after upper:{upperTitle}");
+            //#region ass3_question1
+            //  string title = "clean code";
+            //  string upperTitle=title.ToUpper();
+            //Console.WriteLine($"before upper:{title}");
+            //Console.WriteLine($"after upper:{upperTitle}");
+            //#endregion
+
+            #region ass3_question2
+            string str1 = "Clean Code";
+            string str2 = "Clean Code";
+            bool is_equal= ReferenceEquals(str1, str2);
+            Console.WriteLine($"if two string has the same reference{is_equal}");
             #endregion
+
             //#region ass3_question8
             //int pages = 464;
             //if (pages > 300)
@@ -197,21 +205,21 @@ namespace c__03
             //}
             //#endregion
 
-       }
+        }
 
-//        #region ass3_question18
-//        public void PrintFirstBook()
-//        {
-//          string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-//            if (books.Length == 0)
-//            {
-//                return;
-//            }
-//            else
-//            {
-//                Console.WriteLine(books[0]);
-//            }
-//        }
-//        #endregion
-   }
+        //        #region ass3_question18
+        //        public void PrintFirstBook()
+        //        {
+        //          string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+        //            if (books.Length == 0)
+        //            {
+        //                return;
+        //            }
+        //            else
+        //            {
+        //                Console.WriteLine(books[0]);
+        //            }
+        //        }
+        //        #endregion
+    }
 }
