@@ -42,7 +42,7 @@ namespace c__03
             //Console.WriteLine("type:" + string_pages.GetType());
             //#endregion
 
-            //#region ass2_question5
+            //#region ass2_question6
             //int copies = 100;
             //object obj_copies = copies;
             //Console.WriteLine("boxing:" + obj_copies);
@@ -116,10 +116,16 @@ namespace c__03
             //Console.WriteLine("Book: " + title + "," + "pages:" + pages);
             //#endregion
 
-            #region ass3_question6
+            //#region ass3_question6
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine($"Book: {title},pages:{pages} ");
+            //#endregion
+
+            #region ass3_question7
             string title = "Clean Code";
             int pages = 464;
-            Console.WriteLine($"Book: {title},pages:{pages} ");
+            Console.WriteLine(string.Format("Book:{0}, pages:{1}", title, pages));
             #endregion
 
             //#region ass3_question8
