@@ -110,11 +110,16 @@ namespace c__03
             //Console.WriteLine(sb);
             //#endregion
 
-            #region ass3_question5
-             string title = "Clean Code";
-             int pages = 464;
-            Console.WriteLine("Book: " + title + "," + "pages:" + pages);
+            //#region ass3_question5
+            // string title = "Clean Code";
+            // int pages = 464;
+            //Console.WriteLine("Book: " + title + "," + "pages:" + pages);
+            //#endregion
 
+            #region ass3_question6
+            string title = "Clean Code";
+            int pages = 464;
+            Console.WriteLine($"Book: {title},pages:{pages} ");
             #endregion
 
             //#region ass3_question8
