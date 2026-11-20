@@ -1,5 +1,6 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 namespace c__03
@@ -87,11 +88,18 @@ namespace c__03
             //Console.WriteLine($"after upper:{upperTitle}");
             //#endregion
 
-            #region ass3_question2
-            string str1 = "Clean Code";
-            string str2 = "Clean Code";
-            bool is_equal= ReferenceEquals(str1, str2);
-            Console.WriteLine($"if two string has the same reference{is_equal}");
+            //#region ass3_question2
+            //string str1 = "Clean Code";
+            //string str2 = "Clean Code";
+            //bool is_equal= ReferenceEquals(str1, str2);
+            //Console.WriteLine($"if two string has the same reference{is_equal}");
+            //#endregion
+
+            #region ass3_question3
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Book List");
+            sb.Append(" -Updated");
+            Console.WriteLine(sb);
             #endregion
 
             //#region ass3_question8
