@@ -102,12 +102,19 @@ namespace c__03
             //Console.WriteLine(sb);
             //#endregion
 
-            #region ass3_question4
-            StringBuilder sb = new StringBuilder();
-            sb.Append("Book List");
-            sb.Append(" -Updated");
-            sb.Replace("Book List", "Library");
-            Console.WriteLine(sb);
+            //#region ass3_question4
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" -Updated");
+            //sb.Replace("Book List", "Library");
+            //Console.WriteLine(sb);
+            //#endregion
+
+            #region ass3_question5
+             string title = "Clean Code";
+             int pages = 464;
+            Console.WriteLine("Book: " + title + "," + "pages:" + pages);
+
             #endregion
 
             //#region ass3_question8
