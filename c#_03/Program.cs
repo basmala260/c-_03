@@ -95,10 +95,18 @@ namespace c__03
             //Console.WriteLine($"if two string has the same reference{is_equal}");
             //#endregion
 
-            #region ass3_question3
+            //#region ass3_question3
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Append(" -Updated");
+            //Console.WriteLine(sb);
+            //#endregion
+
+            #region ass3_question4
             StringBuilder sb = new StringBuilder();
             sb.Append("Book List");
             sb.Append(" -Updated");
+            sb.Replace("Book List", "Library");
             Console.WriteLine(sb);
             #endregion
 
