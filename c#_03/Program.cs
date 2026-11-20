@@ -66,21 +66,27 @@ namespace c__03
 
             //#region ass2_question9
             //Book? book = null;
-            //Console.WriteLine(book.title);
+            //Console.WriteLine(book?.title);
             //#endregion
 
             //#region ass2_question10
             //Book? book = null;
             //Console.WriteLine(book?.title ?? "Untitled");
-            //book.title ??= "Untitled";
+            //book?.title ??= "Untitled";
             //#endregion
 
             //#region ass2_question11
             //string? name = "Ahmed";
             //string confirmedName = name!;
             //#endregion
-
-            //#region ass3_question1
+            //*******************************************************************
+            #region ass3_question1
+              string title = "clean code";
+              string upperTitle=title.ToUpper();
+            Console.WriteLine($"before upper:{title}");
+            Console.WriteLine($"after upper:{upperTitle}");
+            #endregion
+            //#region ass3_question8
             //int pages = 464;
             //if (pages > 300)
             //{
@@ -92,7 +98,7 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question2
+            //#region ass3_question9
             //int pages = 464;
             //bool isAvailable = true;
             //if (pages > 300 && isAvailable)
@@ -101,7 +107,7 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question3
+            //#region ass3_question10
             //string title = "Refactoring";
             //switch (title)
             //{
@@ -117,13 +123,13 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question4
+            //#region ass3_question11
             //int pages = 464;
             //string statement = (pages > 300) ? "long book" : "short book";
             //#endregion
 
 
-            //#region ass3_question5
+            //#region ass3_question12
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //   for(int i = 0; i < books.Length; i++)
             //{
@@ -131,17 +137,18 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question5
+            //#region ass3_question13
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //int number = 0;
             //while (number < books.Length)
             //{
             //    Console.WriteLine("============================");
             //    Console.WriteLine(books[number]);
+            //number++;
             //}
             //#endregion
 
-            //#region ass3_question7
+            //#region ass3_question14
             //int i = 1;
             //do
             //{
@@ -150,7 +157,7 @@ namespace c__03
             //} while (i < 4);
             //#endregion
 
-            //#region ass3_question8
+            //#region ass3_question15
             // string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
             //foreach(string name in books)
@@ -159,7 +166,7 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question9
+            //#region ass3_question16
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
             //for(int i = 0; i < books.Length; i++)
@@ -175,7 +182,7 @@ namespace c__03
             //}
             //#endregion
 
-            //#region ass3_question10
+            //#region ass3_question17
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //for (int i = 0; i < books.Length; i++)
             //{
@@ -190,21 +197,21 @@ namespace c__03
             //}
             //#endregion
 
-        }
+       }
 
-        #region ass3_question11
-        public void PrintFirstBook()
-        {
-          string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            if (books.Length == 0)
-            {
-                return;
-            }
-            else
-            {
-                Console.WriteLine(books[0]);
-            }
-        }
-        #endregion
-    }
+//        #region ass3_question18
+//        public void PrintFirstBook()
+//        {
+//          string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+//            if (books.Length == 0)
+//            {
+//                return;
+//            }
+//            else
+//            {
+//                Console.WriteLine(books[0]);
+//            }
+//        }
+//        #endregion
+   }
 }
